@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    "removeComments": true,
+    "alwaysStrict": true,
+    "useDefineForClassFields": true,
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+
+    "stripInternal": true,
+
+    "noEmit": false,
+    "sourceMap": false,
+    "declaration": false,
+
+    "resolveJsonModule": true,
+
+    "skipLibCheck": true,
+    "isolatedModules": true,
+
+    "outDir": "./dist",
+
+    "lib": ["ESNext"],
+    "plugins": [],
+
+    "allowJs": true,
+    "checkJs": true,
+
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitOverride": true,
+
+    "verbatimModuleSyntax": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
